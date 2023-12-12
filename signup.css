@@ -1,0 +1,56 @@
+
+
+.signup-main-container{
+    display: flex;
+    margin: 3%;
+    padding: 3%;
+    background-color: black;
+    border-radius: 7px;
+}
+
+.ebhandar-side-logo{
+    width: 60%;
+    background-color: black;
+    padding: 3%;
+
+}
+.ebhandar-side-logo img{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    padding: auto;
+    width: 100%;
+    height: 70%;
+}
+.ebhandar-side-logo h1{
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.signup-form-div{
+    width: 40%;
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 7px;
+    background-color: white;
+}
+.signup-form-div form input{
+    margin: 5px 0;
+    width: 99%;
+    height: 20px;
+}
+.signup-form-div form button{
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: rgb(255, 188, 62);
+}
+.signup-form-div form button:hover{
+    background-color: rgb(255, 197, 91);
+}
