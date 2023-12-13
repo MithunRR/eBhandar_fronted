@@ -220,7 +220,7 @@ body{
     border: 1px solid black;
 }
 .featured-pr-special .featured-pr-special-flex1 .featured-pr-special-item1{
-    background: url("/img/tfan.jpg");
+    background: url("/assets/images/tfan.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -228,7 +228,7 @@ body{
     border: 1px solid orange;
 }
 .featured-pr-special .featured-pr-special-flex1 .featured-pr-special-item2{
-    background: url("/img/banana.jpg");
+    background: url("/assets/images/banana.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -243,7 +243,7 @@ body{
     border: 1px solid black;
 }
 .featured-pr-special .featured-pr-special-flex2 .featured-pr-special-item3{
-    background: url("/img/potato.jpg");
+    background: url("/assets/images/potato.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -251,7 +251,7 @@ body{
     border: 1px solid orange;
 }
 .featured-pr-special .featured-pr-special-flex2 .featured-pr-special-item4{
-    background: url("/img/almond.jpg");
+    background: url("/assets/images/almond.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -274,7 +274,7 @@ body{
     border: 1px solid black;
 }
 .featured-pr-recentHistory .featured-pr-recentHistory-flex1 .featured-pr-recentHistory-item1{
-    background: url("/img/methi.jpg");
+    background: url("/assets/images/methi.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -282,7 +282,7 @@ body{
     border: 1px solid orange;
 }
 .featured-pr-recentHistory .featured-pr-recentHistory-flex1 .featured-pr-recentHistory-item2{
-    background: url("/img/classmateN.jpg");
+    background: url("/assets/images/classmateN.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -298,7 +298,7 @@ body{
     border: 1px solid black;
 }
 .featured-pr-recentHistory .featured-pr-recentHistory-flex2 .featured-pr-recentHistory-item3{
-    background: url("/img/pista.png");
+    background: url("/assets/images/pista.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -306,7 +306,7 @@ body{
     border: 1px solid orange;
 }
 .featured-pr-recentHistory .featured-pr-recentHistory-flex2 .featured-pr-recentHistory-item4{
-    background: url("/img/tv1.jpg");
+    background: url("/assets/images/tv1.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -328,7 +328,7 @@ body{
     border: 1px solid black;
 }
 .featured-pr-yourWishlist .featured-pr-yourWishlist-flex1 .featured-pr-yourWishlist-item1{
-    background: url("/img/fan.jpg");
+    background: url("/assets/images/fan.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -336,7 +336,7 @@ body{
     border: 1px solid orange;
 }
 .featured-pr-yourWishlist .featured-pr-yourWishlist-flex1 .featured-pr-yourWishlist-item2{
-    background: url("/img/coffee.jpg");
+    background: url("/assets/images/coffee.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -352,7 +352,7 @@ body{
     border: 1px solid black;
 }
 .featured-pr-yourWishlist .featured-pr-yourWishlist-flex2 .featured-pr-yourWishlist-item3{
-    background: url("/img/mango.jpg");
+    background: url("/assets/images/mango.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -360,7 +360,7 @@ body{
     border: 1px solid orange;
 }
 .featured-pr-yourWishlist .featured-pr-yourWishlist-flex2 .featured-pr-yourWishlist-item4{
-    background: url("/img/cabbage.jpg");
+    background: url("/assets/images/cabbage.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -382,7 +382,7 @@ body{
     border: 1px solid black;
 }
 .featured-pr-inCart .featured-pr-inCart-flex1 .featured-pr-inCart-item1{
-    background: url("/img/apsara.jpg");
+    background: url("/assets/images/apsara.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -390,7 +390,7 @@ body{
     border: 1px solid orange;
 }
 .featured-pr-inCart .featured-pr-inCart-flex1 .featured-pr-inCart-item2{
-    background: url("/img/methi.jpg");
+    background: url("/assets/images/methi.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -405,7 +405,7 @@ body{
     border: 1px solid black;
 }
 .featured-pr-inCart .featured-pr-inCart-flex2 .featured-pr-inCart-item3{
-    background: url("/img/Strawberry.jpg");
+    background: url("/assets/images/Strawberry.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
@@ -413,7 +413,7 @@ body{
     border: 1px solid orange;
 }
 .featured-pr-inCart .featured-pr-inCart-flex2 .featured-pr-inCart-item4{
-    background: url("/img/oven.webp");
+    background: url("/assets/images/oven.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
