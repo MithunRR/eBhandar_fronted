@@ -26,17 +26,31 @@
             <a><img src="/assets/images/eBhandar.png" alt=""></a>
         </div>
         <button href="#">Shop</button>
-        <button href="#">Category&#129171;</button>
+        <!-- <button href="#">Category</button> -->
+        <!-- <select name="cars" id="cars">
+            <option value="volvo">Category | All&#129171;</option>
+            <option value="saab">Vall
+            </option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select> -->
         <form method="get" action="#" role="search">
-            <input type="search" placeholder="!.....Strictly Veg " aria-label="Search" name="search" id="search" />
+            <input type="search" placeholder="!.....Strictly Veg " aria-label="Search" name="search" id="search"/>
             <button type="submit">
                 Search
             </button>
         </form>
-        <button href="#">Login</button>
-        <button>Cart</button>
-    </div>
+        <button id="show-login-signup-btn" class="tooltip" onclick="window.location.href='/templates/login.html'">Login
+        </button>
+        <button onclick="window.location.href='/templates/cart.html'">Cart</button>
 
+        <!-- <div class="tooltip">Hover over me
+            <div class="tooltiptext">
+                <button>Login</button>
+                <button>SignUp</button>
+            </div>
+        </div> -->
+    </div>
 
     <!-- category images buttons  -->
     <div class="category-navbar">
@@ -76,30 +90,12 @@
     <div class="slideshow-container">
         <div class="mySlides fade">
             <button><img src="/assets/images/of.png" style="width:100%"></button>
-            <div class="text">
-                <a style="padding: 5px; border-radius:4px;background-color: white; border:1px solid black" href="#">Know
-                    more..</a>
-                <h2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur minima ipsam
-                    deleniti itaque similique </h2>
-            </div>
         </div>
         <div class="mySlides fade">
             <button><img src="/assets/images/offer11.png" style="width:100%"></button>
-            <div class="text">
-                <h2>Lorem ipsuilis consequatur minima ipsam
-                    deleniti itaque similique vero iusto magni delectus officia! </h2>
-                <a style="padding: 3px; border-radius:4px;background-color: white; border:1px solid black" href="#">Know
-                    more..</a>
-            </div>
         </div>
         <div class="mySlides fade">
             <button><img src="/assets/images/fruit.jpg" style="width:100%"></button>
-            <div class="text">
-                <h2>nsectetur adipisicing elit. Facilis consequatur minima ipsam
-                    deleniti itaque similctus officia! </h2> <a
-                    style="padding: 5px; border-radius:4px;background-color: white; border:1px solid black"
-                    href="#">Know more..</a>
-            </div>
         </div>
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -112,7 +108,9 @@
         <div class="featured-pr-special">
             <h2>&#160;Special deals</h2>
             <div class="featured-pr-special-flex1">
-                <div class="featured-pr-special-item1"></div>
+                <button onclick="window.open('/templates/productView.html')" class="featured-pr-special-item1">
+                    <!-- <button onclick="window.location.href='/templates/cart.html'" >Open</button> -->
+                </button>
                 <div class="featured-pr-special-item2"></div>
             </div>
             <div class="featured-pr-special-flex2">
@@ -191,6 +189,7 @@
                 </div>
                 <div class="deal3-two">
                     <button>
+
                         <!-- <img src="{% static 'img/potato.jpg' %}" alt=""> -->
                     </button>
                 </div>
@@ -239,8 +238,9 @@
                         <li><a href="/templates/addresses.html">Address</a></li>
                         <li><a href="#">Orders</a></li>
                         <li><a href="#">Payments</a></li>
-                        <li><a href="/templates/cart.html">Cart</a></li>
                         <li><a href="/templates/signup.html">Sign Up</a></li>
+                        <li><a href="/templates/productView.html">ProdView</a></li>
+                        <li><a href="/templates/search_n_cat.html">Search</a></li>
                     </ul>
                 </div>
             </div>
@@ -254,11 +254,20 @@
             </div>
             <div class="comp-social">
                 <ul>
-                    <li><p style="margin-top: 2px;">Follow us &#64;: &nbsp;</p></li>
-                    <li><a href="https://www.instagram.com/ebhandar/" target="_blank"><img alt="instagram" src="https://w7.pngwing.com/pngs/815/101/png-transparent-www-mevrouwpak-nl-advertising-graphic-design-instagram-instagram-logo-business-advertising-thumbnail.png" width="24" height="24"></a></li>
-                    <li><a href="#"><img alt="twitter" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-logo-icon.svg" width="24" height="24"></a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=61551136987733" target="_blank"><img alt="facebook" src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-clipart-image-black-facebook-logo-png-transparentpng-13.png" width="24" height="24"></a></li>
-                  </ul>
+                    <li>
+                        <p style="margin-top: 2px;">Follow us &#64;: &nbsp;</p>
+                    </li>
+                    <li><a href="https://www.instagram.com/ebhandar/" target="_blank"><img alt="instagram"
+                                src="https://w7.pngwing.com/pngs/815/101/png-transparent-www-mevrouwpak-nl-advertising-graphic-design-instagram-instagram-logo-business-advertising-thumbnail.png"
+                                width="24" height="24"></a></li>
+                    <li><a href="#"><img alt="twitter"
+                                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-logo-icon.svg"
+                                width="24" height="24"></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=61551136987733" target="_blank"><img
+                                alt="facebook"
+                                src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-clipart-image-black-facebook-logo-png-transparentpng-13.png"
+                                width="24" height="24"></a></li>
+                </ul>
             </div>
         </div>
     </footer>

@@ -54,3 +54,7 @@
 .signup-form-div form button:hover{
     background-color: rgb(255, 197, 91);
 }
+
+.signup-form-div a:hover{
+    text-decoration: underline;
+}
