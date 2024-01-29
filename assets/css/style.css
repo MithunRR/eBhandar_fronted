@@ -288,7 +288,7 @@ button{
     border: 1px solid orange;
 }
 .featured-pr-special .featured-pr-special-flex1 .featured-pr-special-item2{
-    background: url("/../../img/banana.jpg");
+    background: url("../../img/banana.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 50%;
